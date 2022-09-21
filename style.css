@@ -12,7 +12,11 @@ body
     display: flex;
     background-color: #23242a;
     flex-direction: column;
+    background-image: url(img/mainbgO.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 .box
 {
     position: relative;
