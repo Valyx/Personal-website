@@ -152,6 +152,57 @@ body
     background-size: cover;
 }
 
+/*retro games selector*/
+
+#retro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#retrobanner {
+    background: rgb(59,42,42);
+    background: linear-gradient(270deg, rgba(59,42,42,1) 9%, rgba(9,90,121,1) 39%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+}
+div.card * {
+    height: 100%;
+}
+
+#metalslug {
+    flex: 1 1 180px;
+    margin: 5px 0px;
+}
+#metalslug img {
+    max-width: 85%;
+}
+#pacman {
+    flex: 0 1 180px;
+}
+#pacman img {
+    max-width: 75%;
+    padding-top: 5%;
+}
+
+#insertcoin {
+    flex: 4 1 180px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#insertcoin img {
+    max-width: 70%;
+    max-height: 80%;
+}
+*/
+
 /* footer styling */
 
 .footer {
@@ -171,7 +222,6 @@ body
     height: 100%;
     width: 90%;
     display: block;
-    /*background-color: #159950;*/
     margin: 0 auto;
 }
 .logo {
@@ -194,9 +244,7 @@ body
     color: whitesmoke;
     font-size: 36px;
 }
-#connector {
-    
-}
+
 .navigation {
     float: right;
     height: 100%;
