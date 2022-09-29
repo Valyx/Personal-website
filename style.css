@@ -175,7 +175,7 @@ div.card * {
 
 #metalslug {
     flex: 1 1 180px;
-    margin: 5px 0px;
+    padding: 5px 0px;
 }
 #metalslug img {
     max-width: 85%;
@@ -190,7 +190,6 @@ div.card * {
 
 #insertcoin {
     flex: 4 1 180px;
-    display: grid;
     align-content: center;
     justify-content: center;
     justify-items: center;
@@ -198,10 +197,21 @@ div.card * {
 }
 
 #insertcoin img {
-    max-width: 70%;
+    vertical-align: super;
+    padding-top: 2%;
+    max-width: 60%;
     max-height: 80%;
+    display: inline-block;
 }
-*/
+#insertcoin h2 {
+    margin: 0 auto;
+    display: inline-block;
+    width: 20%;
+    
+}
+#insertcoin h2#rtopcornerm {
+    vertical-align: top;
+}
 
 /* footer styling */
 
